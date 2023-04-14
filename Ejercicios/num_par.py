@@ -22,7 +22,7 @@ lista_numeros = [1,2,3,4,5,6,7,8,9,10]
 # Variable en la que se guarda el valor
 lista_pares = list(filter(lambda numero : numero %2 == 0, lista_numeros))
 # List / es para convertir de tipo objeto a lista
-# Filter es la funcion que no permite filtrar, la primera expreion es la funcion landa "lambda numero : numero %2 == 0",
+# Filter es la funcion que nos permite filtrar, la primera expreion es la funcion landa "lambda numero : numero %2 == 0",
 # y la segunda es lista de numeros "lista_numeros".
 print(lista_pares)
 

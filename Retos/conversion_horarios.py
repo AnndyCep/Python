@@ -18,9 +18,10 @@ def convertir_horas(texto):
     convertir_horas = ":".join(hora_lista)
     # Creamos una variable para convertir las horas
     # Usanmos la funcion Join, para concatenar la lista a string separandolo por el parametro ":"
-    
-    return convertir_horas
+
+    return convertir_horas[:-2]
 
 print(convertir_horas("12:40 AM"))
 print(convertir_horas("04:59 PM"))
 print(convertir_horas("10:00:00 PM"))
+
