@@ -1,4 +1,5 @@
-"""Con el operador walrus nos permite asignar un valor a una variable miestas se evalua como expresion"""
+"""Con el operador walrus nos permite asignar un valor a una variable miestas se evalua 
+como expresion"""
 
 def fucion_cuadrado(num):
     return num **2
